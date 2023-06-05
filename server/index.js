@@ -16,4 +16,4 @@ app.get('/', (req, res) => {
   res.status(200).json({ message: "T-Shirt server is running" })
 })
 
-app.listen(8081, () => console.log('Server has started on port 8081'))
+app.listen(8082, () => console.log('Server has started on port 8082'))
